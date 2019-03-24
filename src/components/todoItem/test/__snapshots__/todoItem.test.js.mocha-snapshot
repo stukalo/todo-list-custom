@@ -1,0 +1,207 @@
+exports["TodoItem snapshot/should render correctly(0)"] = {
+  "node": {
+    "nodeType": "host",
+    "type": "div",
+    "props": {
+      "className": "todo-item",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "className": "todo-item_text",
+            "children": {
+              "type": "span",
+              "props": {
+                "children": "text",
+                "className": "todo-item_text-span",
+                "onDoubleClick": "onDoubleClick"
+              },
+              "_store": {}
+            }
+          },
+          "_store": {}
+        },
+        {
+          "type": "div",
+          "props": {
+            "className": "todo-item_checkbox",
+            "children": {
+              "type": "Checkbox",
+              "props": {
+                "id": 1,
+                "onChange": "onChange",
+                "isChecked": false
+              },
+              "_store": {}
+            }
+          },
+          "_store": {}
+        }
+      ]
+    },
+    "rendered": [
+      {
+        "nodeType": "host",
+        "type": "div",
+        "props": {
+          "className": "todo-item_text",
+          "children": {
+            "type": "span",
+            "props": {
+              "children": "text",
+              "className": "todo-item_text-span",
+              "onDoubleClick": "onDoubleClick"
+            },
+            "_store": {}
+          }
+        },
+        "rendered": {
+          "nodeType": "host",
+          "type": "span",
+          "props": {
+            "children": "text",
+            "className": "todo-item_text-span",
+            "onDoubleClick": "onDoubleClick"
+          },
+          "rendered": "text"
+        }
+      },
+      {
+        "nodeType": "host",
+        "type": "div",
+        "props": {
+          "className": "todo-item_checkbox",
+          "children": {
+            "type": "Checkbox",
+            "props": {
+              "id": 1,
+              "onChange": "onChange",
+              "isChecked": false
+            },
+            "_store": {}
+          }
+        },
+        "rendered": {
+          "nodeType": "function",
+          "type": "Checkbox",
+          "props": {
+            "id": 1,
+            "onChange": "onChange",
+            "isChecked": false
+          }
+        }
+      }
+    ]
+  },
+  "type": "div",
+  "props": {
+    "className": "todo-item"
+  },
+  "children": [
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "div",
+        "props": {
+          "className": "todo-item_text",
+          "children": {
+            "type": "span",
+            "props": {
+              "children": "text",
+              "className": "todo-item_text-span",
+              "onDoubleClick": "onDoubleClick"
+            },
+            "_store": {}
+          }
+        },
+        "rendered": {
+          "nodeType": "host",
+          "type": "span",
+          "props": {
+            "children": "text",
+            "className": "todo-item_text-span",
+            "onDoubleClick": "onDoubleClick"
+          },
+          "rendered": "text"
+        }
+      },
+      "type": "div",
+      "props": {
+        "className": "todo-item_text"
+      },
+      "children": [
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "span",
+            "props": {
+              "children": "text",
+              "className": "todo-item_text-span",
+              "onDoubleClick": "onDoubleClick"
+            },
+            "rendered": "text"
+          },
+          "type": "span",
+          "props": {
+            "className": "todo-item_text-span",
+            "onDoubleClick": "onDoubleClick"
+          },
+          "children": [
+            "text"
+          ]
+        }
+      ]
+    },
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "div",
+        "props": {
+          "className": "todo-item_checkbox",
+          "children": {
+            "type": "Checkbox",
+            "props": {
+              "id": 1,
+              "onChange": "onChange",
+              "isChecked": false
+            },
+            "_store": {}
+          }
+        },
+        "rendered": {
+          "nodeType": "function",
+          "type": "Checkbox",
+          "props": {
+            "id": 1,
+            "onChange": "onChange",
+            "isChecked": false
+          }
+        }
+      },
+      "type": "div",
+      "props": {
+        "className": "todo-item_checkbox"
+      },
+      "children": [
+        {
+          "node": {
+            "nodeType": "function",
+            "type": "Checkbox",
+            "props": {
+              "id": 1,
+              "onChange": "onChange",
+              "isChecked": false
+            }
+          },
+          "type": "Checkbox",
+          "props": {
+            "id": 1,
+            "onChange": "onChange",
+            "isChecked": false
+          }
+        }
+      ]
+    }
+  ]
+};
+

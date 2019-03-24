@@ -1,0 +1,55 @@
+exports["TextInput snapshot/should render correctly(0)"] = {
+  "node": {
+    "nodeType": "host",
+    "type": "div",
+    "props": {
+      "className": "text-input",
+      "children": {
+        "type": "input",
+        "props": {
+          "type": "text",
+          "className": "text-input_input",
+          "onKeyDown": "handleKeyDown",
+          "placeholder": "placeholder"
+        },
+        "_store": {}
+      }
+    },
+    "rendered": {
+      "nodeType": "host",
+      "type": "input",
+      "props": {
+        "type": "text",
+        "className": "text-input_input",
+        "onKeyDown": "handleKeyDown",
+        "placeholder": "placeholder"
+      }
+    }
+  },
+  "type": "div",
+  "props": {
+    "className": "text-input"
+  },
+  "children": [
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "input",
+        "props": {
+          "type": "text",
+          "className": "text-input_input",
+          "onKeyDown": "handleKeyDown",
+          "placeholder": "placeholder"
+        }
+      },
+      "type": "input",
+      "props": {
+        "type": "text",
+        "className": "text-input_input",
+        "onKeyDown": "handleKeyDown",
+        "placeholder": "placeholder"
+      }
+    }
+  ]
+};
+

@@ -1,0 +1,332 @@
+exports["TodoList snapshot/should render correctly(0)"] = {
+  "node": {
+    "nodeType": "host",
+    "type": "div",
+    "props": {
+      "className": "todo-list",
+      "children": {
+        "type": "Scrollbar",
+        "props": {
+          "style": {
+            "width": "100%",
+            "height": "100%"
+          },
+          "children": [
+            {
+              "type": "div",
+              "key": "1",
+              "props": {
+                "className": "todo-list_item",
+                "children": {
+                  "type": "TodoItem",
+                  "props": {
+                    "todo": {
+                      "id": 1,
+                      "text": "text",
+                      "isEditing": false,
+                      "isCompleted": false
+                    },
+                    "updateTodo": "updateTodo",
+                    "toggleTodoEditing": "toggleTodoEditing",
+                    "toggleTodoCompleted": "toggleTodoCompleted"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            }
+          ],
+          "momentum": true,
+          "minimalThumbSize": 30,
+          "fallbackScrollbarWidth": 20,
+          "trackClickBehavior": "jump",
+          "scrollDetectionThreshold": 100,
+          "wrapperProps": {},
+          "contentProps": {},
+          "trackXProps": {},
+          "trackYProps": {},
+          "thumbXProps": {},
+          "thumbYProps": {}
+        },
+        "_store": {}
+      }
+    },
+    "rendered": {
+      "nodeType": "class",
+      "type": "Scrollbar",
+      "props": {
+        "style": {
+          "width": "100%",
+          "height": "100%"
+        },
+        "children": [
+          {
+            "type": "div",
+            "key": "1",
+            "props": {
+              "className": "todo-list_item",
+              "children": {
+                "type": "TodoItem",
+                "props": {
+                  "todo": {
+                    "id": 1,
+                    "text": "text",
+                    "isEditing": false,
+                    "isCompleted": false
+                  },
+                  "updateTodo": "updateTodo",
+                  "toggleTodoEditing": "toggleTodoEditing",
+                  "toggleTodoCompleted": "toggleTodoCompleted"
+                },
+                "_store": {}
+              }
+            },
+            "_store": {}
+          }
+        ],
+        "momentum": true,
+        "minimalThumbSize": 30,
+        "fallbackScrollbarWidth": 20,
+        "trackClickBehavior": "jump",
+        "scrollDetectionThreshold": 100,
+        "wrapperProps": {},
+        "contentProps": {},
+        "trackXProps": {},
+        "trackYProps": {},
+        "thumbXProps": {},
+        "thumbYProps": {}
+      },
+      "rendered": [
+        {
+          "nodeType": "host",
+          "type": "div",
+          "props": {
+            "className": "todo-list_item",
+            "children": {
+              "type": "TodoItem",
+              "props": {
+                "todo": {
+                  "id": 1,
+                  "text": "text",
+                  "isEditing": false,
+                  "isCompleted": false
+                },
+                "updateTodo": "updateTodo",
+                "toggleTodoEditing": "toggleTodoEditing",
+                "toggleTodoCompleted": "toggleTodoCompleted"
+              },
+              "_store": {}
+            }
+          },
+          "key": "1",
+          "rendered": {
+            "nodeType": "class",
+            "type": "TodoItem",
+            "props": {
+              "todo": {
+                "id": 1,
+                "text": "text",
+                "isEditing": false,
+                "isCompleted": false
+              },
+              "updateTodo": "updateTodo",
+              "toggleTodoEditing": "toggleTodoEditing",
+              "toggleTodoCompleted": "toggleTodoCompleted"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "type": "div",
+  "props": {
+    "className": "todo-list"
+  },
+  "children": [
+    {
+      "node": {
+        "nodeType": "class",
+        "type": "Scrollbar",
+        "props": {
+          "style": {
+            "width": "100%",
+            "height": "100%"
+          },
+          "children": [
+            {
+              "type": "div",
+              "key": "1",
+              "props": {
+                "className": "todo-list_item",
+                "children": {
+                  "type": "TodoItem",
+                  "props": {
+                    "todo": {
+                      "id": 1,
+                      "text": "text",
+                      "isEditing": false,
+                      "isCompleted": false
+                    },
+                    "updateTodo": "updateTodo",
+                    "toggleTodoEditing": "toggleTodoEditing",
+                    "toggleTodoCompleted": "toggleTodoCompleted"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            }
+          ],
+          "momentum": true,
+          "minimalThumbSize": 30,
+          "fallbackScrollbarWidth": 20,
+          "trackClickBehavior": "jump",
+          "scrollDetectionThreshold": 100,
+          "wrapperProps": {},
+          "contentProps": {},
+          "trackXProps": {},
+          "trackYProps": {},
+          "thumbXProps": {},
+          "thumbYProps": {}
+        },
+        "rendered": [
+          {
+            "nodeType": "host",
+            "type": "div",
+            "props": {
+              "className": "todo-list_item",
+              "children": {
+                "type": "TodoItem",
+                "props": {
+                  "todo": {
+                    "id": 1,
+                    "text": "text",
+                    "isEditing": false,
+                    "isCompleted": false
+                  },
+                  "updateTodo": "updateTodo",
+                  "toggleTodoEditing": "toggleTodoEditing",
+                  "toggleTodoCompleted": "toggleTodoCompleted"
+                },
+                "_store": {}
+              }
+            },
+            "key": "1",
+            "rendered": {
+              "nodeType": "class",
+              "type": "TodoItem",
+              "props": {
+                "todo": {
+                  "id": 1,
+                  "text": "text",
+                  "isEditing": false,
+                  "isCompleted": false
+                },
+                "updateTodo": "updateTodo",
+                "toggleTodoEditing": "toggleTodoEditing",
+                "toggleTodoCompleted": "toggleTodoCompleted"
+              }
+            }
+          }
+        ]
+      },
+      "type": "Scrollbar",
+      "props": {
+        "style": {
+          "width": "100%",
+          "height": "100%"
+        },
+        "momentum": true,
+        "minimalThumbSize": 30,
+        "fallbackScrollbarWidth": 20,
+        "trackClickBehavior": "jump",
+        "scrollDetectionThreshold": 100,
+        "wrapperProps": {},
+        "contentProps": {},
+        "trackXProps": {},
+        "trackYProps": {},
+        "thumbXProps": {},
+        "thumbYProps": {}
+      },
+      "children": [
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "div",
+            "props": {
+              "className": "todo-list_item",
+              "children": {
+                "type": "TodoItem",
+                "props": {
+                  "todo": {
+                    "id": 1,
+                    "text": "text",
+                    "isEditing": false,
+                    "isCompleted": false
+                  },
+                  "updateTodo": "updateTodo",
+                  "toggleTodoEditing": "toggleTodoEditing",
+                  "toggleTodoCompleted": "toggleTodoCompleted"
+                },
+                "_store": {}
+              }
+            },
+            "key": "1",
+            "rendered": {
+              "nodeType": "class",
+              "type": "TodoItem",
+              "props": {
+                "todo": {
+                  "id": 1,
+                  "text": "text",
+                  "isEditing": false,
+                  "isCompleted": false
+                },
+                "updateTodo": "updateTodo",
+                "toggleTodoEditing": "toggleTodoEditing",
+                "toggleTodoCompleted": "toggleTodoCompleted"
+              }
+            }
+          },
+          "type": "div",
+          "props": {
+            "className": "todo-list_item",
+            "key": "1"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "class",
+                "type": "TodoItem",
+                "props": {
+                  "todo": {
+                    "id": 1,
+                    "text": "text",
+                    "isEditing": false,
+                    "isCompleted": false
+                  },
+                  "updateTodo": "updateTodo",
+                  "toggleTodoEditing": "toggleTodoEditing",
+                  "toggleTodoCompleted": "toggleTodoCompleted"
+                }
+              },
+              "type": "TodoItem",
+              "props": {
+                "todo": {
+                  "id": 1,
+                  "text": "text",
+                  "isEditing": false,
+                  "isCompleted": false
+                },
+                "updateTodo": "updateTodo",
+                "toggleTodoEditing": "toggleTodoEditing",
+                "toggleTodoCompleted": "toggleTodoCompleted"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+

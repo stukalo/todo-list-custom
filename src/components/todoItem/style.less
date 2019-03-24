@@ -1,0 +1,28 @@
+@todo-item-background-color: #ffffff;
+@todo-item-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+@text-area-border-color: cornflowerblue;
+
+.todo-item {
+  width: 100%;
+  min-height: 100%;
+  background-color: @todo-item-background-color;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: @todo-item-box-shadow;
+
+  &_text-area {
+    border: 2px solid @text-area-border-color;
+    padding: 8px;
+    overflow: auto;
+    outline: none;
+    box-shadow: none;
+    resize: none;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+  }
+}

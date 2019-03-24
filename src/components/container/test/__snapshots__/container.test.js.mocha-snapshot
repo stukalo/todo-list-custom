@@ -1,0 +1,202 @@
+exports["Container snapshot/should render correctly(0)"] = {
+  "node": {
+    "nodeType": "host",
+    "type": "div",
+    "props": {
+      "className": "main-container",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "className": "main-container_header",
+            "children": {
+              "type": "Header",
+              "props": {
+                "strings": {},
+                "addTodo": "addTodo"
+              },
+              "_store": {}
+            }
+          },
+          "_store": {}
+        },
+        {
+          "type": "div",
+          "props": {
+            "className": "main-container_todo-list",
+            "children": {
+              "type": "TodoList",
+              "props": {
+                "todos": [],
+                "updateTodo": "updateTodo",
+                "toggleTodoEditing": "toggleTodoEditing",
+                "toggleTodoCompleted": "toggleTodoCompleted"
+              },
+              "_store": {}
+            }
+          },
+          "_store": {}
+        }
+      ]
+    },
+    "rendered": [
+      {
+        "nodeType": "host",
+        "type": "div",
+        "props": {
+          "className": "main-container_header",
+          "children": {
+            "type": "Header",
+            "props": {
+              "strings": {},
+              "addTodo": "addTodo"
+            },
+            "_store": {}
+          }
+        },
+        "rendered": {
+          "nodeType": "function",
+          "type": "Header",
+          "props": {
+            "strings": {},
+            "addTodo": "addTodo"
+          }
+        }
+      },
+      {
+        "nodeType": "host",
+        "type": "div",
+        "props": {
+          "className": "main-container_todo-list",
+          "children": {
+            "type": "TodoList",
+            "props": {
+              "todos": [],
+              "updateTodo": "updateTodo",
+              "toggleTodoEditing": "toggleTodoEditing",
+              "toggleTodoCompleted": "toggleTodoCompleted"
+            },
+            "_store": {}
+          }
+        },
+        "rendered": {
+          "nodeType": "function",
+          "type": "TodoList",
+          "props": {
+            "todos": [],
+            "updateTodo": "updateTodo",
+            "toggleTodoEditing": "toggleTodoEditing",
+            "toggleTodoCompleted": "toggleTodoCompleted"
+          }
+        }
+      }
+    ]
+  },
+  "type": "div",
+  "props": {
+    "className": "main-container"
+  },
+  "children": [
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "div",
+        "props": {
+          "className": "main-container_header",
+          "children": {
+            "type": "Header",
+            "props": {
+              "strings": {},
+              "addTodo": "addTodo"
+            },
+            "_store": {}
+          }
+        },
+        "rendered": {
+          "nodeType": "function",
+          "type": "Header",
+          "props": {
+            "strings": {},
+            "addTodo": "addTodo"
+          }
+        }
+      },
+      "type": "div",
+      "props": {
+        "className": "main-container_header"
+      },
+      "children": [
+        {
+          "node": {
+            "nodeType": "function",
+            "type": "Header",
+            "props": {
+              "strings": {},
+              "addTodo": "addTodo"
+            }
+          },
+          "type": "Header",
+          "props": {
+            "strings": {},
+            "addTodo": "addTodo"
+          }
+        }
+      ]
+    },
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "div",
+        "props": {
+          "className": "main-container_todo-list",
+          "children": {
+            "type": "TodoList",
+            "props": {
+              "todos": [],
+              "updateTodo": "updateTodo",
+              "toggleTodoEditing": "toggleTodoEditing",
+              "toggleTodoCompleted": "toggleTodoCompleted"
+            },
+            "_store": {}
+          }
+        },
+        "rendered": {
+          "nodeType": "function",
+          "type": "TodoList",
+          "props": {
+            "todos": [],
+            "updateTodo": "updateTodo",
+            "toggleTodoEditing": "toggleTodoEditing",
+            "toggleTodoCompleted": "toggleTodoCompleted"
+          }
+        }
+      },
+      "type": "div",
+      "props": {
+        "className": "main-container_todo-list"
+      },
+      "children": [
+        {
+          "node": {
+            "nodeType": "function",
+            "type": "TodoList",
+            "props": {
+              "todos": [],
+              "updateTodo": "updateTodo",
+              "toggleTodoEditing": "toggleTodoEditing",
+              "toggleTodoCompleted": "toggleTodoCompleted"
+            }
+          },
+          "type": "TodoList",
+          "props": {
+            "todos": [],
+            "updateTodo": "updateTodo",
+            "toggleTodoEditing": "toggleTodoEditing",
+            "toggleTodoCompleted": "toggleTodoCompleted"
+          }
+        }
+      ]
+    }
+  ]
+};
+

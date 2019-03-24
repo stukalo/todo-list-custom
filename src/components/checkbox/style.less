@@ -1,0 +1,57 @@
+@label-background-color: #26C281;
+@label-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+@mark-border-color: #ffffff;
+
+.checkbox {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  &:hover input {
+    & + label {
+      background-color: @label-background-color;
+    }
+  }
+
+  input {
+    visibility: hidden;
+
+    &:checked + label:after {
+      opacity: 1;
+    }
+
+    &:checked ~ label {
+      background-color: @label-background-color;
+    }
+  }
+
+  label {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: @label-box-shadow;
+
+    &:after {
+        content: '';
+        cursor: pointer;
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+        position: absolute;
+        top: 3px;
+        left: 5px;
+        border: 2px solid @mark-border-color;
+        box-sizing: border-box;
+        border-top: none;
+        border-right: none;
+        background: transparent;
+        opacity: 0;
+        transform: rotate(-45deg);
+    }
+  }
+}

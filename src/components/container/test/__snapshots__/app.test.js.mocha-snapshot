@@ -1,0 +1,43 @@
+exports["Container snapshot/should render correctly(0)"] = {
+  "node": {
+    "nodeType": "host",
+    "type": "div",
+    "props": {
+      "children": {
+        "type": "span",
+        "props": {
+          "children": "Main Component"
+        },
+        "_store": {}
+      }
+    },
+    "rendered": {
+      "nodeType": "host",
+      "type": "span",
+      "props": {
+        "children": "Main Component"
+      },
+      "rendered": "Main Component"
+    }
+  },
+  "type": "div",
+  "props": {},
+  "children": [
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "span",
+        "props": {
+          "children": "Main Component"
+        },
+        "rendered": "Main Component"
+      },
+      "type": "span",
+      "props": {},
+      "children": [
+        "Main Component"
+      ]
+    }
+  ]
+};
+

@@ -1,0 +1,193 @@
+exports["Header snapshot/should render correctly(0)"] = {
+  "node": {
+    "nodeType": "host",
+    "type": "div",
+    "props": {
+      "className": "header",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "className": "header_title title",
+            "children": {
+              "type": "span",
+              "props": {
+                "className": "title_text",
+                "children": "Todo"
+              },
+              "_store": {}
+            }
+          },
+          "_store": {}
+        },
+        {
+          "type": "div",
+          "props": {
+            "className": "header_input",
+            "children": {
+              "type": "TextInput",
+              "props": {
+                "onSubmit": "addTodo",
+                "placeholder": "todoInputPlaceholder"
+              },
+              "_store": {}
+            }
+          },
+          "_store": {}
+        }
+      ]
+    },
+    "rendered": [
+      {
+        "nodeType": "host",
+        "type": "div",
+        "props": {
+          "className": "header_title title",
+          "children": {
+            "type": "span",
+            "props": {
+              "className": "title_text",
+              "children": "Todo"
+            },
+            "_store": {}
+          }
+        },
+        "rendered": {
+          "nodeType": "host",
+          "type": "span",
+          "props": {
+            "className": "title_text",
+            "children": "Todo"
+          },
+          "rendered": "Todo"
+        }
+      },
+      {
+        "nodeType": "host",
+        "type": "div",
+        "props": {
+          "className": "header_input",
+          "children": {
+            "type": "TextInput",
+            "props": {
+              "onSubmit": "addTodo",
+              "placeholder": "todoInputPlaceholder"
+            },
+            "_store": {}
+          }
+        },
+        "rendered": {
+          "nodeType": "function",
+          "type": "TextInput",
+          "props": {
+            "onSubmit": "addTodo",
+            "placeholder": "todoInputPlaceholder"
+          }
+        }
+      }
+    ]
+  },
+  "type": "div",
+  "props": {
+    "className": "header"
+  },
+  "children": [
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "div",
+        "props": {
+          "className": "header_title title",
+          "children": {
+            "type": "span",
+            "props": {
+              "className": "title_text",
+              "children": "Todo"
+            },
+            "_store": {}
+          }
+        },
+        "rendered": {
+          "nodeType": "host",
+          "type": "span",
+          "props": {
+            "className": "title_text",
+            "children": "Todo"
+          },
+          "rendered": "Todo"
+        }
+      },
+      "type": "div",
+      "props": {
+        "className": "header_title title"
+      },
+      "children": [
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "span",
+            "props": {
+              "className": "title_text",
+              "children": "Todo"
+            },
+            "rendered": "Todo"
+          },
+          "type": "span",
+          "props": {
+            "className": "title_text"
+          },
+          "children": [
+            "Todo"
+          ]
+        }
+      ]
+    },
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "div",
+        "props": {
+          "className": "header_input",
+          "children": {
+            "type": "TextInput",
+            "props": {
+              "onSubmit": "addTodo",
+              "placeholder": "todoInputPlaceholder"
+            },
+            "_store": {}
+          }
+        },
+        "rendered": {
+          "nodeType": "function",
+          "type": "TextInput",
+          "props": {
+            "onSubmit": "addTodo",
+            "placeholder": "todoInputPlaceholder"
+          }
+        }
+      },
+      "type": "div",
+      "props": {
+        "className": "header_input"
+      },
+      "children": [
+        {
+          "node": {
+            "nodeType": "function",
+            "type": "TextInput",
+            "props": {
+              "onSubmit": "addTodo",
+              "placeholder": "todoInputPlaceholder"
+            }
+          },
+          "type": "TextInput",
+          "props": {
+            "onSubmit": "addTodo",
+            "placeholder": "todoInputPlaceholder"
+          }
+        }
+      ]
+    }
+  ]
+};
+

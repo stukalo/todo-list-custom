@@ -1,0 +1,94 @@
+exports["Checkbox snapshot/should render correctly(0)"] = {
+  "node": {
+    "nodeType": "host",
+    "type": "div",
+    "props": {
+      "className": "checkbox",
+      "children": [
+        {
+          "type": "input",
+          "props": {
+            "id": 1,
+            "type": "checkbox",
+            "checked": true,
+            "onChange": "onChange",
+            "className": "checkbox_input"
+          },
+          "_store": {}
+        },
+        {
+          "type": "label",
+          "props": {
+            "htmlFor": 1,
+            "className": "checkbox_label"
+          },
+          "_store": {}
+        }
+      ]
+    },
+    "rendered": [
+      {
+        "nodeType": "host",
+        "type": "input",
+        "props": {
+          "id": 1,
+          "type": "checkbox",
+          "checked": true,
+          "onChange": "onChange",
+          "className": "checkbox_input"
+        }
+      },
+      {
+        "nodeType": "host",
+        "type": "label",
+        "props": {
+          "htmlFor": 1,
+          "className": "checkbox_label"
+        }
+      }
+    ]
+  },
+  "type": "div",
+  "props": {
+    "className": "checkbox"
+  },
+  "children": [
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "input",
+        "props": {
+          "id": 1,
+          "type": "checkbox",
+          "checked": true,
+          "onChange": "onChange",
+          "className": "checkbox_input"
+        }
+      },
+      "type": "input",
+      "props": {
+        "id": 1,
+        "type": "checkbox",
+        "checked": true,
+        "onChange": "onChange",
+        "className": "checkbox_input"
+      }
+    },
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "label",
+        "props": {
+          "htmlFor": 1,
+          "className": "checkbox_label"
+        }
+      },
+      "type": "label",
+      "props": {
+        "htmlFor": 1,
+        "className": "checkbox_label"
+      }
+    }
+  ]
+};
+
